@@ -57,10 +57,15 @@ ctrl+C
  11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 touch sklls.json 
 
+cat >> sklls.json
+умение рабоnать в терминале GitBash
+Postman,JS
+изучение клиент-сервеной архитектуры
+ctrl+C
+
  12. Отправить сразу 2 файла на внешний репозиторий.
 git status
-git add 'preferences.json'
-git add 'sklls.json'
+git add .
 git commit "new file"
 git push
 
